@@ -3,6 +3,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
   font-size: 16px;
 }
 
@@ -31,23 +34,13 @@ h2 {
 
 h3 {
   font-family: 'Special Elite', cursive;
-  margin: 10px 0;
-}
-
-@media screen and (min-width: 768px) {
-  h3 {
-    font-size: 1.2rem;
-  }
+  margin-bottom: 10px;
+  font-size: 1.4rem;
 }
 
 h4 {
   font-family: 'Special Elite', cursive;
-}
-
-@media screen and (min-width: 768px) {
-    h4 {
-      font-size: 1.2rem;
-    }
+  font-size: 1.4rem;
 }
 
 a {
@@ -57,41 +50,28 @@ a {
   line-height: 1.2rem;
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: inline;
-}
-
-@media screen and (min-width: 768px) {
-  a {
-    font-size: 1.2rem;
-  }
 }
 
 p {
   font-family: 'Special Elite', cursive;
   width: 90%;
   margin: 0 auto;
-  line-height: 1.2rem;
-}
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 
-@media screen and (min-width: 768px) {
-  p {
-    font-size: 1.2rem;
-  }
 }
 
 ul {
   width: 75%;
   margin: 10px auto;
   font-family: 'Special Elite', cursive;
-  line-height: 1.2rem;
+  line-height: 1.6rem;
 }
 
-@media screen and (min-width: 768px) {
-  ul li {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-  }
+ul li {
+  font-size: 1.4rem;
 }
 
 /* use span class="roach" for every instance of the word roach */
@@ -117,7 +97,7 @@ header h1 {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   header h1 {
     margin: 25px;
   }
@@ -129,7 +109,7 @@ header h1 {
   margin: 10px auto;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .crosshair {
     margin: 20px auto;
   }
@@ -155,14 +135,9 @@ nav ul {
 /* Plan Rules */
 article {
   width: 95%;
-  margin: 25px auto;
-  min-height: 40vh;
-}
-
-@media screen and (min-width: 768px) {
-  article {
-    width: 70%;
-  }
+  margin: 2.5% auto;
+  margin-top: 25px;
+  max-width: 900px;
 }
 
 /* Step Rules */
