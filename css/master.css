@@ -138,6 +138,7 @@ article {
   margin: 2.5% auto;
   margin-top: 25px;
   max-width: 900px;
+  min-height: 100vh;
 }
 
 /* Step Rules */
